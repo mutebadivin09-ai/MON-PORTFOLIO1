@@ -7,11 +7,13 @@
 body {
     font-family: Arial, sans-serif;
     color: #14213d;
-    background: #ffffff;
+    background: #f5f7fb;
 }
 
-.vision {
-    padding: 80px 8%;
+.competences {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 25px;
     text-align: center;
 }
 
@@ -23,49 +25,48 @@ body {
     letter-spacing: 2px;
 }
 
-.vision h1 {
-    margin-bottom: 25px;
+.competences h1 {
+    margin-bottom: 20px;
     font-size: 36px;
 }
 
-.introduction {
-    max-width: 700px;
-    margin: 0 auto 45px;
+.description {
+    max-width: 650px;
+    margin: 0 auto 40px;
     color: #64748b;
-    font-size: 18px;
     line-height: 1.8;
 }
 
-.contenu-vision {
+.grille-competences {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 25px;
+}
+
+.carte {
+    padding: 30px;
+    border-radius: 8px;
+    background: #ffffff;
     text-align: left;
+    box-shadow: 0 4px 15px #14213d10;
 }
 
-.objectif {
-    padding: 25px;
-    border-top: 4px solid #fca311;
-    border-radius: 6px;
-    background: #f5f7fb;
-}
-
-.objectif h2 {
+.carte h2 {
     margin-bottom: 15px;
-    font-size: 21px;
+    color: #fca311;
 }
 
-.objectif p {
+.carte p {
     color: #64748b;
-    line-height: 1.8;
+    line-height: 1.7;
 }
 
-@media (max-width: 750px) {
-    .contenu-vision {
+@media (max-width: 600px) {
+    .grille-competences {
         grid-template-columns: 1fr;
     }
 
-    .vision h1 {
+    .competences h1 {
         font-size: 30px;
     }
 }
