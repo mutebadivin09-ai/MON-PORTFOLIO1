@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+    background: #f5f7fb;
+}
+
+.competences {
+    max-width: 1100px;
+    margin: auto;
+    padding: 80px 25px;
+    text-align: center;
+}
+
+.sous-titre {
+    margin-bottom: 15px;
+    color: #fca311;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.competences h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.description {
+    max-width: 650px;
+    margin: 0 auto 40px;
+    color: #64748b;
+    line-height: 1.8;
+}
+
+.grille-competences {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.carte {
+    padding: 30px;
+    border-radius: 8px;
+    background: #ffffff;
+    text-align: left;
+    box-shadow: 0 4px 15px #14213d10;
+}
+
+.carte h2 {
+    margin-bottom: 15px;
+    color: #fca311;
+}
+
+.carte p {
+    color: #64748b;
+    line-height: 1.7;
+}
+
+@media (max-width: 600px) {
+    .grille-competences {
+        grid-template-columns: 1fr;
+    }
+
+    .competences h1 {
+        font-size: 30px;
+    }
+}
