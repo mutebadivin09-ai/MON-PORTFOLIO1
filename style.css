@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #14213d;
+    background: #f5f7fb;
+}
+
+.apropos {
+    max-width: 850px;
+    margin: 80px auto;
+    padding: 40px 25px;
+    text-align: center;
+}
+
+.apropos h1 {
+    margin-bottom: 30px;
+    color: #14213d;
+    font-size: 36px;
+}
+
+.apropos p {
+    margin-bottom: 20px;
+    color: #475569;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.apropos .introduction {
+    color: #fca311;
+    font-size: 21px;
+    font-weight: bold;
+}
